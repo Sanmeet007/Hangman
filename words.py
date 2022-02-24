@@ -1,215 +1,142 @@
 word_list = [
-    "abruptly",
-    "absurd",
-    "abyss",
-    "affix",
-    "askew",
-    "avenue",
-    "awkward",
-    "axiom",
-    "azure",
-    "bagpipes",
-    "bandwagon",
-    "banjo",
-    "bayou",
-    "beekeeper",
-    "bikini",
-    "blitz",
-    "blizzard",
-    "boggle",
-    "bookworm",
-    "boxcar",
-    "boxful",
-    "buckaroo",
-    "buffalo",
-    "buffoon",
-    "buxom",
-    "buzzard",
-    "buzzing",
-    "buzzwords",
-    "caliph",
-    "cobweb",
-    "cockiness",
-    "croquet",
-    "crypt",
-    "curacao",
-    "cycle",
-    "daiquiri",
-    "dirndl",
-    "disavow",
-    "dizzying",
-    "duplex",
-    "dwarves",
-    "embezzle",
-    "equip",
-    "espionage",
-    "euouae",
-    "exodus",
-    "faking",
-    "fishhook",
-    "fixable",
-    "fjord",
-    "flapjack",
-    "flopping",
-    "fluffiness",
-    "flyby",
-    "foxglove",
-    "frazzled",
-    "frizzled",
-    "fuchsia",
-    "funny",
-    "gabby",
-    "galaxy",
-    "galvanize",
-    "gazebo",
-    "giaour",
-    "gizmo",
-    "glowworm",
-    "glyph",
-    "gnarly",
-    "gnostic",
-    "gossip",
-    "grogginess",
-    "haiku",
-    "haphazard",
-    "hyphen",
-    "iatrogenic",
-    "icebox",
-    "injury",
-    "ivory",
-    "ivy",
-    "jackpot",
-    "jaundice",
-    "jawbreaker",
-    "jaywalk",
-    "jazziest",
-    "jazzy",
-    "jelly",
-    "jigsaw",
-    "jinx",
-    "jiujitsu",
-    "jockey",
-    "jogging",
-    "joking",
-    "jovial",
-    "joyful",
-    "juicy",
-    "jukebox",
-    "jumbo",
-    "kayak",
-    "kazoo",
-    "keyhole",
-    "khaki",
-    "kilobyte",
-    "kiosk",
-    "kitsch",
-    "kiwifruit",
-    "klutz",
-    "knapsack",
-    "larynx",
-    "lengths",
-    "lucky",
-    "luxury",
-    "lymph",
-    "marquis",
-    "matrix",
-    "megahertz",
-    "microwave",
-    "mnemonic",
-    "mystify",
-    "naphtha",
-    "nightclub",
-    "nowadays",
-    "numbskull",
-    "nymph",
-    "onyx",
-    "ovary",
-    "oxidize",
-    "oxygen",
-    "pajama",
-    "peekaboo",
-    "phlegm",
-    "pixel",
-    "pizazz",
-    "pneumonia",
-    "polka",
-    "pshaw",
-    "psyche",
-    "puppy",
-    "puzzling",
-    "quartz",
-    "queue",
-    "quips",
-    "quixotic",
-    "quiz",
-    "quizzes",
-    "quorum",
-    "razzmatazz",
-    "rhubarb",
-    "rhythm",
-    "rickshaw",
-    "schnapps",
-    "scratch",
-    "shiv",
-    "snazzy",
-    "sphinx",
-    "spritz",
-    "squawk",
-    "staff",
-    "strength",
-    "strengths",
-    "stretch",
-    "stronghold",
-    "stymied",
-    "subway",
-    "swivel",
-    "syndrome",
-    "thriftless",
-    "thumbscrew",
-    "topaz",
-    "transcript",
-    "transgress",
-    "transplant",
-    "triphthong",
-    "twelfth",
-    "twelfths",
-    "unknown",
-    "unworthy",
-    "unzip",
-    "uptown",
-    "vaporize",
-    "vixen",
-    "vodka",
-    "voodoo",
-    "vortex",
-    "voyeurism",
-    "walkway",
-    "waltz",
-    "wave",
-    "wavy",
-    "waxy",
-    "wellspring",
-    "wheezy",
-    "whiskey",
-    "whizzing",
-    "whomever",
-    "wimpy",
-    "witchcraft",
-    "wizard",
-    "woozy",
-    "wristwatch",
-    "wyvern",
-    "xylophone",
-    "yachtsman",
-    "yippee",
-    "yoked",
-    "youthful",
-    "yummy",
-    "zephyr",
-    "zigzag",
-    "zigzagging",
-    "zilch",
-    "zipper",
-    "zodiac",
-    "zombie",
+    {
+        "word" : "drawing" ,         
+        "hint" : "To express art"
+    },
+    {
+        "word" : "bedroom" , 
+        "hint" : "a place where you sleep"
+    },
+    {
+        "word" : "battery" , 
+        "hint" : "Phone's most important spec"
+    },
+    {
+        "word" : "college" , 
+        "hint" : "A place building future"
+    },
+    {
+        "word" : "intial" , 
+        "hint" : "Starting point"
+    },
+    {
+        "word" : "holiday" , 
+        "hint" : "Best day to chill"
+    },
+    {
+        "word" : "husband" , 
+        "hint" : "Groom's synonym"
+    },
+    {
+        "word" : "freedom" , 
+        "hint" : "India got this on 1947"
+    },
+    {
+        "word" : "genetic" , 
+        "hint" : "Term related to biology"
+    },
+    {
+        "word" : "illegal" , 
+        "hint" : "What is cheating"
+    },
+    {
+        "word" : "formula" , 
+        "hint" : "Maths has a lot of ?"
+    },
+    {
+        "word" : "fitness" , 
+        "hint" : "Purpose of gyming"
+    },
+    {
+        "word" : "finance" , 
+        "hint" : "A word related to accounts"
+    },
+    {
+        "word" : "gallery" , 
+        "hint" : "A place to view image in mobile"
+    },
+    {
+        "word" : "puzzled" , 
+        "hint" : "Confusing game"
+    },
+    {
+        "word" : "coockie" , 
+        "hint" : "Sweet baked buscuit"
+    },
+    {
+        "word" : "barrier" , 
+        "hint" : "Stopping "
+    },
+    {
+        "word" : "contest" , 
+        "hint" : "To participate in ?"
+    },
+    {
+        "word" : "diamond" , 
+        "hint" : "Hardest substance"
+    },
+    {
+        "word" : "fashion" , 
+        "hint" : "What girls loves the most"
+    },
+    {
+        "word" : "failure" , 
+        "hint" : "Fear of loosing"
+    },
+    {
+        "word" : "kingdom" , 
+        "hint" : "Empire"
+    },
+    {
+        "word" : "library" , 
+        "hint" : "A place to store books"
+    },
+    {
+        "word" : "obvious" , 
+        "hint" : "Most certain"
+    },
+    {
+        "word" : "neutral" , 
+        "hint" : "Water is......"
+    },
+    {
+        "word" : "nuclear" , 
+        "hint" : "A dangerous weapon"
+    },
+    {
+        "word" : "perfect" , 
+        "hint" : "A person can never be..."
+    },
+    {
+        "word" : "railway" , 
+        "hint" : "Mode of transport"
+    },
+    {
+        "word" : "silence" , 
+        "hint" : "State of being quite"
+    },
+    {
+        "word" : "surgery" , 
+        "hint" : "What is called when doctor operates"
+    },
+    {
+        "word" : "visible" , 
+        "hint" : "When you see clearly"
+    },
+    {
+        "word" : "welcome" , 
+        "hint" : "What to say after Thank You"
+    },
+    {
+        "word" : "teacher" , 
+        "hint" : "A person who can teach"
+    },
+    {
+        "word" : "weekend" , 
+        "hint" : "Saturday and sunday are.....?"
+    },
+    {
+        "word" : "organic" , 
+        "hint" : "Most difficult section of Chemistry"
+    }
 ]

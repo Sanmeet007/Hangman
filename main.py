@@ -16,17 +16,56 @@ clear = lambda: system("cls")
 
 # Maximum no. of guesses
 MAX_CHANCES = 6
+HINT_NUMBER = 3
+
+
 
 
 # Game variables
-selected_word = random.choice(word_list)
+selected_dict = random.choice(word_list)
+selected_word = ""
+selected_hint = ""
+
 should_play = True
 chances_left = MAX_CHANCES
-guess_array = ["_" for i in selected_word]
+guess_array = []
 play_again = "y"
 
-# Game Functions
+def random_index () -> int :
+    global selected_word
+    return random.randint(0 , len(selected_word) - 1) 
 
+
+#  Initial  function
+
+
+def set_words ()-> None : 
+    """Sets the intial setups"""
+    global selected_dict , selected_hint , guess_array   , selected_word
+    selected_word = selected_dict["word"]
+    selected_hint = selected_dict["hint"]
+    guess_array = []
+    
+    choices = []
+
+    for i in range(0  , HINT_NUMBER) :
+        choices.append(random_index())
+
+    for i in  range(len(selected_word)):
+            if i in choices :
+                guess_array.append(selected_word[i])
+            else :
+                guess_array.append("_")
+
+
+
+def print_hint () -> None :
+    global selected_hint
+    print("Wooho your hint : "+selected_hint)
+
+set_words()
+
+# Game Functions
 
 def print_array() -> None:
     """Prints the word from the array of characters passed"""
@@ -43,9 +82,9 @@ def print_stage() -> None:
 
 def reset_vars() -> None:
     """Resets the game variables"""
-    global guess_array, selected_word
-    selected_word = random.choice(word_list)
-    guess_array = ["_" for i in selected_word]
+    global guess_array, selected_word , set_words , selected_dict 
+    selected_dict = random.choice(word_list)
+    set_words()
 
 
 # Initial setup
@@ -64,15 +103,16 @@ print(stages[chances_left])
 # Game Loop
 
 while should_play:
-    print_array()
-    input_char = input("Guess a word : ")
+    print_hint()
+    print_array() 
+    input_char = input("Guess a word : ").lower()
+    print(input_char , selected_word)
+    # print(selected_word)
 
     if input_char in selected_word:
-
         for i in range(len(selected_word)):
             if input_char == selected_word[i]:
                 guess_array[i] = input_char
-
     else:
         chances_left -= 1
 
